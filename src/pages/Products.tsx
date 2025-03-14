@@ -29,7 +29,7 @@ const Products = () => {
     {
       title: "Managed Threat Hunting - Sniper",
       description: "Advanced threat detection and response system with AI-powered intelligence.",
-      image: "/lovable-uploads/881d5b12-fff1-45fe-93ba-7028634ea10d.png",
+      image: "/lovable-uploads/f541fbd5-93ce-4b3e-b352-37093c81affe.png",
       features: [
         "Comprehensive threat detection covering known indicators of compromise (IoCs)",
         "Automated threat triage with AI intelligence",

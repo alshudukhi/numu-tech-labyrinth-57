@@ -24,7 +24,8 @@ const Products = () => {
         "Automated threat triage with AI intelligence",
         "Designed for rapid scanning across environments",
         "Detailed and actionable reporting"
-      ]
+      ],
+      image: "/lovable-uploads/f541fbd5-93ce-4b3e-b352-37093c81affe.png"
     }
   ];
 
