@@ -16,7 +16,7 @@ const Products = () => {
     {
       title: "Rashed Tool",
       description: "Conduct simulated phishing exercises to reduce phishing risks by improving employee awareness and response skills.",
-      image: "/lovable-uploads/881d5b12-fff1-45fe-93ba-7028634ea10d.png",
+      image: "/lovable-uploads/aa9aeaef-fb69-4deb-aec7-8d9cef771e6b.png",
       features: [
         "Easily generates simulated phishing campaigns that reflect real-world threats",
         "Creates tailored phishing campaigns to train employees at high risk",

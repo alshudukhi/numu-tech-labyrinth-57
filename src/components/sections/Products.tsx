@@ -13,7 +13,8 @@ const Products = () => {
         "Creates tailored phishing campaigns for high-risk threats",
         "Provides contextual feedback as part of the training",
         "Generates real-time metrics to improve effectiveness"
-      ]
+      ],
+      image: "/lovable-uploads/aa9aeaef-fb69-4deb-aec7-8d9cef771e6b.png"
     },
     {
       title: "Sniper",
@@ -55,6 +56,7 @@ const Products = () => {
                 title={product.title}
                 description={product.description}
                 features={product.features}
+                image={product.image}
               />
             </RevealText>
           ))}
