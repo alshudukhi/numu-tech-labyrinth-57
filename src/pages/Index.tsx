@@ -12,6 +12,28 @@ const Index = () => {
   // Scroll to top on page load
   useEffect(() => {
     window.scrollTo(0, 0);
+    
+    // Handle hash links for smooth scrolling
+    const handleHashLinks = () => {
+      if (window.location.hash) {
+        const elementId = window.location.hash.substring(1);
+        const element = document.getElementById(elementId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    };
+    
+    // Execute after DOM is fully loaded
+    setTimeout(handleHashLinks, 100);
+    
+    // Add event listener for hash changes
+    window.addEventListener('hashchange', handleHashLinks);
+    
+    // Clean up
+    return () => {
+      window.removeEventListener('hashchange', handleHashLinks);
+    };
   }, []);
 
   return (
