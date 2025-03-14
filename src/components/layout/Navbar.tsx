@@ -48,9 +48,9 @@ const Navbar = () => {
         >
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/881d5b12-fff1-45fe-93ba-7028634ea10d.png" 
+              src="/lovable-uploads/78081387-0c21-495b-a47f-642596b919ab.png" 
               alt="Numu Tech Logo" 
-              className="h-9 md:h-12 transition-transform duration-300 hover:scale-105" 
+              className="h-12 md:h-16 transition-transform duration-300 hover:scale-105" 
             />
           </div>
         </Link>

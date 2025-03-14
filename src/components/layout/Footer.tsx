@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { PhoneCall, Mail, Globe } from 'lucide-react';
@@ -11,9 +10,9 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="inline-block">
               <img 
-                src="/lovable-uploads/881d5b12-fff1-45fe-93ba-7028634ea10d.png" 
+                src="/lovable-uploads/78081387-0c21-495b-a47f-642596b919ab.png" 
                 alt="Numu Tech Logo" 
-                className="h-10 md:h-12" 
+                className="h-12 md:h-14" 
               />
             </Link>
             <p className="text-gray-600 mt-4 max-w-xs">
