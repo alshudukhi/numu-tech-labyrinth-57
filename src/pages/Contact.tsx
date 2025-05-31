@@ -16,14 +16,14 @@ const Contact = () => {
     {
       icon: <Globe className="w-6 h-6" />,
       title: "Website",
-      value: "numutech.net",
-      href: "https://numutech.net"
+      value: "numutech.sa",
+      href: "https://numutech.sa"
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "info@numutech.net",
-      href: "mailto:info@numutech.net"
+      value: "info@numutech.sa",
+      href: "mailto:info@numutech.sa"
     },
     {
       icon: <PhoneCall className="w-6 h-6" />,

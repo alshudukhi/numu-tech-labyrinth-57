@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { PhoneCall, Mail, Globe } from 'lucide-react';
@@ -20,7 +21,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-4 mt-6">
               <a 
-                href="https://numutech.net" 
+                href="https://numutech.sa" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gray-100 p-2 rounded-full text-gray-600 hover:text-numutech-blue hover:bg-gray-200 transition-colors duration-300"
@@ -29,7 +30,7 @@ const Footer = () => {
                 <Globe size={18} />
               </a>
               <a 
-                href="mailto:info@numutech.net" 
+                href="mailto:info@numutech.sa" 
                 className="bg-gray-100 p-2 rounded-full text-gray-600 hover:text-numutech-blue hover:bg-gray-200 transition-colors duration-300"
                 aria-label="Email"
               >
@@ -71,21 +72,21 @@ const Footer = () => {
               <li className="flex">
                 <Globe className="flex-shrink-0 h-5 w-5 text-numutech-blue mr-3" />
                 <a 
-                  href="https://numutech.net" 
+                  href="https://numutech.sa" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-numutech-blue transition-colors duration-200"
                 >
-                  numutech.net
+                  numutech.sa
                 </a>
               </li>
               <li className="flex">
                 <Mail className="flex-shrink-0 h-5 w-5 text-numutech-blue mr-3" />
                 <a 
-                  href="mailto:info@numutech.net"
+                  href="mailto:info@numutech.sa"
                   className="hover:text-numutech-blue transition-colors duration-200"
                 >
-                  info@numutech.net
+                  info@numutech.sa
                 </a>
               </li>
               <li className="flex">
